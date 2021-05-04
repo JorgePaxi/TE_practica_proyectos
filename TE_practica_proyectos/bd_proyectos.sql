@@ -7,6 +7,7 @@ tarea varchar(100) null,
 prioridad int(11) null,
 completado int(11) null
 );
+
 insert into tareas (tarea, prioridad, completado) values ('Reunion con estudiantes de la carrera',1,1);
 insert into tareas (tarea, prioridad, completado) values ('Estudiar para el examen de Probabilidades',1,2);
 insert into tareas (tarea, prioridad, completado) values ('Pardido de futsal',3,2);
